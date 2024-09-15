@@ -1,12 +1,13 @@
 {
-  "name": "react-portfolio-template",
+  "name": "fahdstitu.Portfolio",
   "version": "3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "deploy": "next build && next export && touch out/.nojekyll && echo fahdstitu.me > out/CNAME"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",

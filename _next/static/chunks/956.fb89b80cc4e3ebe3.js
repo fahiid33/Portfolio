@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[956],{6956:function(e,a,c){c.r(a),a.default="/_next/static/media/resume.8b6a0a08c1b0e1c12de9616d7ea9d9de.pdf"}}]);

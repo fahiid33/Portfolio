@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
    ```bash
    cd portfolio
    npm install
-```
+   ```
 3. Run the development server:
    ```bash
    npm run dev

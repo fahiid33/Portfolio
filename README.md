@@ -7,7 +7,6 @@ Welcome to my personal portfolio! This project is built with [Next.js](https://n
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [License](#license)
 
 ## Features
 
@@ -30,9 +29,9 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/portfolio.git
 2. Install dependencies:
-  ```bash
-  cd portfolio
-  npm install
+   ```bash
+   cd portfolio
+   npm install
 ```
 3. Run the development server:
    ```bash

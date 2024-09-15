@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '', 
-  assetPrefix: '', 
+  basePath: '/Portfolio', 
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '', 
   webpack: (config) => {
     config.module.rules.push({
       test: /\.pdf$/,
@@ -10,7 +10,7 @@ const nextConfig = {
         {
           loader: 'file-loader',
           options: {
-            publicPath: '/_next',
+            publicPath: '/Portfolio/_next',
             name: 'static/media/[name].[hash].[ext]',
           },
         },
